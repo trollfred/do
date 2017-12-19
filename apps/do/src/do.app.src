@@ -1,0 +1,16 @@
+{application, do,
+ [{description, "A little transfer agent model"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { do_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
